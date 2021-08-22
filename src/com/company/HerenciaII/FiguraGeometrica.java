@@ -1,7 +1,7 @@
 package com.company.HerenciaII;
 
 public abstract class FiguraGeometrica {
-    private String forma;
+    protected String forma;
 
     public FiguraGeometrica(){
         this.forma="Figura Geometrica";
@@ -11,6 +11,7 @@ public abstract class FiguraGeometrica {
         return this.forma;
     }
 
-    abstract double calcularArea();
-    abstract double calcularPerimetro();
+    protected double calcularArea() { return 0; }
+
+    protected double calcularPerimetro() {return 0; }
 }
