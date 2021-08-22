@@ -16,11 +16,10 @@ public class CalculadoraBasica {
     public double restar(double primerNumero, double segundoNumero){
         return primerNumero-segundoNumero;
     }
-
     public double multiplicar(double primerNumero, double segundoNumero){
         return primerNumero * segundoNumero;
     }
-
+    public double dividir(double primerNumero, double segundoNumero) {return primerNumero / segundoNumero;}
 
 
     public double sumarVariosNumeros(double [] variosNumeros){
